@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer
+# Install script for directory: /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

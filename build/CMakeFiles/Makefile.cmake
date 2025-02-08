@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/CMakeLists.txt"
+  "/mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake"

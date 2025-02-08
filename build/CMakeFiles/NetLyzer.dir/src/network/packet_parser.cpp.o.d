@@ -1,7 +1,7 @@
 CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o: \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.cpp \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.h \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

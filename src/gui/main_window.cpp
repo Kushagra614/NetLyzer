@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), sniffer_(std::make_unique<PacketSniffer>()) {
     setupUI();
     populateInterfaces();
+
+    resize(1000,500);
 }
 
 MainWindow::~MainWindow() {

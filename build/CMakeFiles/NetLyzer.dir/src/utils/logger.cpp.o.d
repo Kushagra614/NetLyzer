@@ -1,7 +1,7 @@
 CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o: \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.cpp \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.h \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,7 +1,7 @@
 CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o: \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.cpp \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.h \
+ /mnt/d/ME/WORK/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.h \
  /usr/include/pcap.h /usr/include/pcap/pcap.h \
  /usr/include/pcap/funcattrs.h /usr/include/pcap/compiler-tests.h \
  /usr/include/pcap/pcap-inttypes.h /usr/include/inttypes.h \
