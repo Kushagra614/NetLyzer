@@ -8,17 +8,19 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Find the required Qt packages
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
-# Include Qt include directories
-include_directories(${Qt5Widgets_INCLUDE_DIRS})
+# Find libpcap
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(PCAP REQUIRED libpcap)
 
 # Include directories
+include_directories(${Qt5Widgets_INCLUDE_DIRS})
+include_directories(${PCAP_INCLUDE_DIRS})
 include_directories(src)
 
 # Source files
 set(SOURCES
     src/main.cpp
-    src/gui/mainwindow.cpp
-    src/gui/packetview.cpp
+    src/gui/main_window.cpp
     src/network/packet_sniffer.cpp
     src/network/packet_parser.cpp
     src/utils/logger.cpp
@@ -26,8 +28,7 @@ set(SOURCES
 
 # Header files (for MOC - Meta-Object Compiler)
 set(HEADERS
-    src/gui/mainwindow.h
-    src/gui/packetview.h
+    src/gui/main_window.h
     src/network/packet_sniffer.h
     src/network/packet_parser.h
     src/utils/logger.h
@@ -45,5 +46,5 @@ qt5_wrap_ui(UI_HEADERS ${UIS})
 # Add executable
 add_executable(NetLyzer ${SOURCES} ${MOC_SOURCES} ${UI_HEADERS})
 
-# Link Qt libraries
-target_link_libraries(NetLyzer Qt5::Widgets)
+# Link libraries
+target_link_libraries(NetLyzer Qt5::Widgets ${PCAP_LIBRARIES})

@@ -9,5 +9,5 @@
 -I/usr/include/libnl3
 -I/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src
 -o
-/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network/moc_packet_parser.cpp
-/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/network/packet_parser.h
+/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_main_window.cpp
+/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/main_window.h

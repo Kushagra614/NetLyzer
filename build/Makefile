@@ -132,101 +132,53 @@ NetLyzer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/build
 .PHONY : NetLyzer/fast
 
-src/gui/mainwindow.o: src/gui/mainwindow.cpp.o
-.PHONY : src/gui/mainwindow.o
+src/gui/main_window.o: src/gui/main_window.cpp.o
+.PHONY : src/gui/main_window.o
 
 # target to build an object file
-src/gui/mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o
-.PHONY : src/gui/mainwindow.cpp.o
+src/gui/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o
+.PHONY : src/gui/main_window.cpp.o
 
-src/gui/mainwindow.i: src/gui/mainwindow.cpp.i
-.PHONY : src/gui/mainwindow.i
+src/gui/main_window.i: src/gui/main_window.cpp.i
+.PHONY : src/gui/main_window.i
 
 # target to preprocess a source file
-src/gui/mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.i
-.PHONY : src/gui/mainwindow.cpp.i
+src/gui/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.i
+.PHONY : src/gui/main_window.cpp.i
 
-src/gui/mainwindow.s: src/gui/mainwindow.cpp.s
-.PHONY : src/gui/mainwindow.s
+src/gui/main_window.s: src/gui/main_window.cpp.s
+.PHONY : src/gui/main_window.s
 
 # target to generate assembly for a file
-src/gui/mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.s
-.PHONY : src/gui/mainwindow.cpp.s
+src/gui/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.s
+.PHONY : src/gui/main_window.cpp.s
 
-src/gui/moc_mainwindow.o: src/gui/moc_mainwindow.cpp.o
-.PHONY : src/gui/moc_mainwindow.o
+src/gui/moc_main_window.o: src/gui/moc_main_window.cpp.o
+.PHONY : src/gui/moc_main_window.o
 
 # target to build an object file
-src/gui/moc_mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o
-.PHONY : src/gui/moc_mainwindow.cpp.o
+src/gui/moc_main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o
+.PHONY : src/gui/moc_main_window.cpp.o
 
-src/gui/moc_mainwindow.i: src/gui/moc_mainwindow.cpp.i
-.PHONY : src/gui/moc_mainwindow.i
-
-# target to preprocess a source file
-src/gui/moc_mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.i
-.PHONY : src/gui/moc_mainwindow.cpp.i
-
-src/gui/moc_mainwindow.s: src/gui/moc_mainwindow.cpp.s
-.PHONY : src/gui/moc_mainwindow.s
-
-# target to generate assembly for a file
-src/gui/moc_mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.s
-.PHONY : src/gui/moc_mainwindow.cpp.s
-
-src/gui/moc_packetview.o: src/gui/moc_packetview.cpp.o
-.PHONY : src/gui/moc_packetview.o
-
-# target to build an object file
-src/gui/moc_packetview.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o
-.PHONY : src/gui/moc_packetview.cpp.o
-
-src/gui/moc_packetview.i: src/gui/moc_packetview.cpp.i
-.PHONY : src/gui/moc_packetview.i
+src/gui/moc_main_window.i: src/gui/moc_main_window.cpp.i
+.PHONY : src/gui/moc_main_window.i
 
 # target to preprocess a source file
-src/gui/moc_packetview.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.i
-.PHONY : src/gui/moc_packetview.cpp.i
+src/gui/moc_main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.i
+.PHONY : src/gui/moc_main_window.cpp.i
 
-src/gui/moc_packetview.s: src/gui/moc_packetview.cpp.s
-.PHONY : src/gui/moc_packetview.s
-
-# target to generate assembly for a file
-src/gui/moc_packetview.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.s
-.PHONY : src/gui/moc_packetview.cpp.s
-
-src/gui/packetview.o: src/gui/packetview.cpp.o
-.PHONY : src/gui/packetview.o
-
-# target to build an object file
-src/gui/packetview.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o
-.PHONY : src/gui/packetview.cpp.o
-
-src/gui/packetview.i: src/gui/packetview.cpp.i
-.PHONY : src/gui/packetview.i
-
-# target to preprocess a source file
-src/gui/packetview.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.i
-.PHONY : src/gui/packetview.cpp.i
-
-src/gui/packetview.s: src/gui/packetview.cpp.s
-.PHONY : src/gui/packetview.s
+src/gui/moc_main_window.s: src/gui/moc_main_window.cpp.s
+.PHONY : src/gui/moc_main_window.s
 
 # target to generate assembly for a file
-src/gui/packetview.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.s
-.PHONY : src/gui/packetview.cpp.s
+src/gui/moc_main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NetLyzer.dir/build.make CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.s
+.PHONY : src/gui/moc_main_window.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -405,18 +357,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NetLyzer"
-	@echo "... src/gui/mainwindow.o"
-	@echo "... src/gui/mainwindow.i"
-	@echo "... src/gui/mainwindow.s"
-	@echo "... src/gui/moc_mainwindow.o"
-	@echo "... src/gui/moc_mainwindow.i"
-	@echo "... src/gui/moc_mainwindow.s"
-	@echo "... src/gui/moc_packetview.o"
-	@echo "... src/gui/moc_packetview.i"
-	@echo "... src/gui/moc_packetview.s"
-	@echo "... src/gui/packetview.o"
-	@echo "... src/gui/packetview.i"
-	@echo "... src/gui/packetview.s"
+	@echo "... src/gui/main_window.o"
+	@echo "... src/gui/main_window.i"
+	@echo "... src/gui/main_window.s"
+	@echo "... src/gui/moc_main_window.o"
+	@echo "... src/gui/moc_main_window.i"
+	@echo "... src/gui/moc_main_window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

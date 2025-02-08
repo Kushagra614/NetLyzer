@@ -72,34 +72,30 @@ include CMakeFiles/NetLyzer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NetLyzer.dir/flags.make
 
-src/gui/moc_mainwindow.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/mainwindow.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gui/moc_mainwindow.cpp"
-	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_mainwindow.cpp_parameters"
-
-src/gui/moc_packetview.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/packetview.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating src/gui/moc_packetview.cpp"
-	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_packetview.cpp_parameters"
+src/gui/moc_main_window.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/main_window.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gui/moc_main_window.cpp"
+	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_main_window.cpp_parameters"
 
 src/network/moc_packet_sniffer.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating src/network/moc_packet_sniffer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating src/network/moc_packet_sniffer.cpp"
 	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network/moc_packet_sniffer.cpp_parameters"
 
 src/network/moc_packet_parser.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating src/network/moc_packet_parser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating src/network/moc_packet_parser.cpp"
 	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network/moc_packet_parser.cpp_parameters"
 
 src/utils/moc_logger.cpp: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Generating src/utils/moc_logger.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating src/utils/moc_logger.cpp"
 	cd "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/utils" && /usr/lib/qt5/bin/moc "@/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/utils/moc_logger.cpp_parameters"
 
 ui_mainwindow.h: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/mainwindow.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_mainwindow.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_mainwindow.h"
 	/usr/lib/qt5/bin/uic -o "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/ui_mainwindow.h" "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/mainwindow.ui"
 
 CMakeFiles/NetLyzer.dir/src/main.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/main.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/main.cpp
 CMakeFiles/NetLyzer.dir/src/main.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NetLyzer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NetLyzer.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/main.cpp.o -MF CMakeFiles/NetLyzer.dir/src/main.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/main.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/main.cpp"
 
 CMakeFiles/NetLyzer.dir/src/main.cpp.i: cmake_force
@@ -110,38 +106,24 @@ CMakeFiles/NetLyzer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/main.cpp" -o CMakeFiles/NetLyzer.dir/src/main.cpp.s
 
-CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
-CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/mainwindow.cpp
-CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/mainwindow.cpp"
+CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
+CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/main_window.cpp
+CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/main_window.cpp"
 
-CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/mainwindow.cpp" > CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.i
+CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/main_window.cpp" > CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.i
 
-CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/mainwindow.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.s
-
-CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
-CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/gui/packetview.cpp
-CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/packetview.cpp"
-
-CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/packetview.cpp" > CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.i
-
-CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/packetview.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.s
+CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/gui/main_window.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.s
 
 CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_sniffer.cpp
 CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o -MF CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/network/packet_sniffer.cpp"
 
 CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.i: cmake_force
@@ -155,7 +137,7 @@ CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.s: cmake_force
 CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/network/packet_parser.cpp
 CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o -MF CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/network/packet_parser.cpp"
 
 CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.i: cmake_force
@@ -169,7 +151,7 @@ CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.s: cmake_force
 CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o: /mnt/d/ME/Work/Codeverse/Coding/C++/Projects\ C++/NetLyzer/src/utils/logger.cpp
 CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o -MF CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/utils/logger.cpp"
 
 CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.i: cmake_force
@@ -180,38 +162,24 @@ CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/src/utils/logger.cpp" -o CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.s
 
-CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
-CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o: src/gui/moc_mainwindow.cpp
-CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_mainwindow.cpp"
+CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
+CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o: src/gui/moc_main_window.cpp
+CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_main_window.cpp"
 
-CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_mainwindow.cpp" > CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.i
+CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_main_window.cpp" > CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.i
 
-CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_mainwindow.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.s
-
-CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
-CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o: src/gui/moc_packetview.cpp
-CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o -MF CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_packetview.cpp"
-
-CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_packetview.cpp" > CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.i
-
-CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_packetview.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.s
+CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/gui/moc_main_window.cpp" -o CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.s
 
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o: src/network/moc_packet_sniffer.cpp
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o -MF CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network/moc_packet_sniffer.cpp"
 
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.i: cmake_force
@@ -225,7 +193,7 @@ CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.s: cmake_force
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o: src/network/moc_packet_parser.cpp
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o -MF CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/network/moc_packet_parser.cpp"
 
 CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.i: cmake_force
@@ -239,7 +207,7 @@ CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.s: cmake_force
 CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o: CMakeFiles/NetLyzer.dir/flags.make
 CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o: src/utils/moc_logger.cpp
 CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o: CMakeFiles/NetLyzer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o -MF CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o.d -o CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o -c "/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/src/utils/moc_logger.cpp"
 
 CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.i: cmake_force
@@ -253,13 +221,11 @@ CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.s: cmake_force
 # Object files for target NetLyzer
 NetLyzer_OBJECTS = \
 "CMakeFiles/NetLyzer.dir/src/main.cpp.o" \
-"CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o" \
-"CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o" \
+"CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o" \
-"CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o" \
-"CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o" \
+"CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o" \
 "CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o"
@@ -268,13 +234,11 @@ NetLyzer_OBJECTS = \
 NetLyzer_EXTERNAL_OBJECTS =
 
 NetLyzer: CMakeFiles/NetLyzer.dir/src/main.cpp.o
-NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/mainwindow.cpp.o
-NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/packetview.cpp.o
+NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/main_window.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/network/packet_sniffer.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/network/packet_parser.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/utils/logger.cpp.o
-NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/moc_mainwindow.cpp.o
-NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/moc_packetview.cpp.o
+NetLyzer: CMakeFiles/NetLyzer.dir/src/gui/moc_main_window.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/network/moc_packet_sniffer.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/network/moc_packet_parser.cpp.o
 NetLyzer: CMakeFiles/NetLyzer.dir/src/utils/moc_logger.cpp.o
@@ -283,7 +247,7 @@ NetLyzer: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 NetLyzer: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 NetLyzer: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 NetLyzer: CMakeFiles/NetLyzer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable NetLyzer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/d/ME/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable NetLyzer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NetLyzer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -294,8 +258,7 @@ CMakeFiles/NetLyzer.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/NetLyzer.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/NetLyzer.dir/clean
 
-CMakeFiles/NetLyzer.dir/depend: src/gui/moc_mainwindow.cpp
-CMakeFiles/NetLyzer.dir/depend: src/gui/moc_packetview.cpp
+CMakeFiles/NetLyzer.dir/depend: src/gui/moc_main_window.cpp
 CMakeFiles/NetLyzer.dir/depend: src/network/moc_packet_parser.cpp
 CMakeFiles/NetLyzer.dir/depend: src/network/moc_packet_sniffer.cpp
 CMakeFiles/NetLyzer.dir/depend: src/utils/moc_logger.cpp
