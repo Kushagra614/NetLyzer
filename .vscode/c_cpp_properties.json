@@ -1,0 +1,18 @@
+{
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/usr/include/x86_64-linux-gnu/qt6/**",
+              "/usr/include/pcap"
+              
+          ],
+          "defines": [],
+          "compilerPath": "/usr/bin/g++",
+          "cStandard": "c17",
+          "cppStandard": "c++17"
+      }
+  ],
+  "version": 4
+}
