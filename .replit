@@ -4,7 +4,7 @@ modules = ["cpp-clang14", "nodejs-20"]
 channel = "stable-25_05"
 
 [workflows]
-runButton = "Build and Run NetLyzer"
+runButton = "Run NetLyzer"
 
 [[workflows.workflow]]
 name = "Build and Run NetLyzer"
@@ -30,3 +30,21 @@ args = "make -j$(nproc)"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "sudo ./NetLyzer"
+
+[[workflows.workflow]]
+name = "Build"
+author = 21905819
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd build && make -j4"
+
+[[workflows.workflow]]
+name = "Run NetLyzer"
+author = 21905819
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd build && sudo ./NetLyzer"

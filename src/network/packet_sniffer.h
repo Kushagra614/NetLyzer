@@ -1,58 +1,57 @@
-#pragma once
+#ifndef PACKET_SNIFFER_H
+#define PACKET_SNIFFER_H
 
-#include <pcap.h>
 #include <string>
-#include <functional>
 #include <vector>
-#include <atomic>
 #include <thread>
-#include <memory>
+#include <functional>
+#include <pcap.h>
 
 using namespace std;
-class PacketSniffer
-{
+
+class PacketSniffer {
 public:
-    struct PacketData
-    {
-        vector<uint8_t> raw_data;
+    struct PacketData {
+        string timestamp;
         string source_ip;
         string dest_ip;
-        uint16_t source_port;
-        uint16_t dest_port;
         string protocol;
-        size_t length;
-        string timestamp;
+        uint16_t source_port = 0;
+        uint16_t dest_port = 0;
+        uint32_t length = 0;
+        vector<uint8_t> raw_data;
     };
 
-    using PacketCallback = function<void(const PacketData &)>;
+    struct Statistics {
+        uint32_t packets_captured = 0;
+        uint32_t packets_dropped = 0;
+        uint32_t packets_dropped_by_interface = 0;
+    };
+
+    using PacketCallback = function<void(const PacketData&)>;
 
     PacketSniffer();
     ~PacketSniffer();
 
-    bool init(const string &interface_name);
-    bool start_capture(const string &filter = "");
+    bool init(const string& interface_name);
+    bool start_capture(const string& filter = "");
     void stop_capture();
     void set_packet_callback(PacketCallback callback);
 
     static vector<string> get_available_interfaces();
-
-    struct Statistics
-    {
-        unsigned long packets_captured;
-        unsigned long packets_dropped;
-        unsigned long packets_dropped_by_interface;
-    };
     Statistics get_statistics();
 
 private:
-    pcap_t *handle_;
-    atomic<bool> is_running_;
+    void capture_loop();
+    static void packet_handler(u_char* user, const struct pcap_pkthdr* header, const u_char* packet);
+    PacketData parse_packet(const struct pcap_pkthdr* header, const u_char* packet);
+
+    pcap_t* handle_;
+    bool is_running_;
+    string error_buffer_;
     thread capture_thread_;
     PacketCallback packet_callback_;
-    string error_buffer_;
     Statistics statistics_;
-
-    void capture_loop();
-    static void packet_handler(u_char *user, const struct pcap_pkthdr *header, const u_char *packet);
-    PacketData parse_packet(const struct pcap_pkthdr *header, const u_char *packet);
 };
+
+#endif // PACKET_SNIFFER_H

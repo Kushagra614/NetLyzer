@@ -1,39 +1,42 @@
 
-#pragma once
+#ifndef LOGGER_H
+#define LOGGER_H
 
-#include <string>
 #include <fstream>
-#include <mutex>
-#include <chrono>
 #include <iostream>
-#include <sstream>
-#include <iomanip>
+#include <string>
+#include <memory>
+#include <mutex>
 
 class Logger {
 public:
-    enum class LogLevel {
+    enum class Level {
+        DEBUG,
         INFO,
         WARNING,
         ERROR
     };
 
     static Logger& get_instance();
-    void log(const std::string& message, LogLevel level = LogLevel::INFO);
+    
+    void log(Level level, const std::string& message);
+    void debug(const std::string& message);
+    void info(const std::string& message);
+    void warning(const std::string& message);
+    void error(const std::string& message);
 
 private:
     Logger();
     ~Logger();
+    
     Logger(const Logger&) = delete;
     Logger& operator=(const Logger&) = delete;
-
+    
+    std::string level_to_string(Level level);
     std::string get_timestamp();
-    std::string log_level_to_string(LogLevel level);
-
+    
     std::ofstream log_file_;
     std::mutex log_mutex_;
 };
 
-// Convenience macros
-#define LOG_INFO(message) Logger::get_instance().log(message, Logger::LogLevel::INFO)
-#define LOG_WARNING(message) Logger::get_instance().log(message, Logger::LogLevel::WARNING)
-#define LOG_ERROR(message) Logger::get_instance().log(message, Logger::LogLevel::ERROR)
+#endif // LOGGER_H
