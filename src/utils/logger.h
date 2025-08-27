@@ -1,11 +1,12 @@
-// logger.h#pragma once
+
+#pragma once
 
 #include <string>
 #include <fstream>
 #include <mutex>
-#include <memory>
-#include <iostream>
 #include <chrono>
+#include <iostream>
+#include <sstream>
 #include <iomanip>
 
 class Logger {
@@ -17,7 +18,6 @@ public:
     };
 
     static Logger& get_instance();
-
     void log(const std::string& message, LogLevel level = LogLevel::INFO);
 
 private:
@@ -32,3 +32,8 @@ private:
     std::ofstream log_file_;
     std::mutex log_mutex_;
 };
+
+// Convenience macros
+#define LOG_INFO(message) Logger::get_instance().log(message, Logger::LogLevel::INFO)
+#define LOG_WARNING(message) Logger::get_instance().log(message, Logger::LogLevel::WARNING)
+#define LOG_ERROR(message) Logger::get_instance().log(message, Logger::LogLevel::ERROR)
