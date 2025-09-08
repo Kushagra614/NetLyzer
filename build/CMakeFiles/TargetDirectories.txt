@@ -1,3 +1,0 @@
-/mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles/NetLyzer.dir
-/mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles/edit_cache.dir
-/mnt/d/ME/WORK/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles/rebuild_cache.dir
