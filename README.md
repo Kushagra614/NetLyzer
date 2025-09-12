@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![NetLyzer Logo](resources/netlyzer.png)
-
 **A Professional Network Packet Analyzer Built with Qt6 & C++**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
