@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>netlyzer.png</file>
+        <file>start.png</file>
+        <file>stop.png</file>
+        <file>open.png</file>
+        <file>save.png</file>
+        <file>clear.png</file>
+        <file>interface.png</file>
+        <file>ethernet.png</file>
+        <file>wifi.png</file>
+        <file>loopback.png</file>
+        <file>statistics.png</file>
+    </qresource>
+</RCC>

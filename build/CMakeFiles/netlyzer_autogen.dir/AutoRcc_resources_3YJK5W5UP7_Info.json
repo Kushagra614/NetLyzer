@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/netlyzer_autogen",
+	"CMAKE_BINARY_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer",
+	"CMAKE_SOURCE_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/netlyzer_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/start.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/netlyzer.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/stop.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/interface.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/ethernet.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/loopback.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/clear.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/save.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/open.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/statistics.png",
+		"/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/wifi.png"
+	],
+	"LOCK_FILE" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles/netlyzer_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/build/CMakeFiles/netlyzer_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/kushagra-vardhan/Kush/Work/Codeverse/Coding/C++/Projects C++/NetLyzer/resources/resources.qrc",
+	"VERBOSITY" : 0
+}

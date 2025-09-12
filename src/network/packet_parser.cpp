@@ -1,19 +1,12 @@
 
-#include "packet_parser.h"
-#include <sstream>
-#include <iomanip>
-#include <arpa/inet.h>
-#include <net/ethernet.h>
-#include <netinet/ip.h>
-#include <netinet/tcp.h>
-#include <netinet/udp.h>
+#include "netlyzer/network/packet_parser.h"
 
 PacketParser::EthernetHeader PacketParser::parse_ethernet(const uint8_t* data) {
     EthernetHeader header;
     const struct ether_header* eth = reinterpret_cast<const struct ether_header*>(data);
     
-    header.dest_mac = mac_to_string(eth->ether_dhost);
     header.source_mac = mac_to_string(eth->ether_shost);
+    header.dest_mac = mac_to_string(eth->ether_dhost);
     header.ethertype = ntohs(eth->ether_type);
     
     return header;
